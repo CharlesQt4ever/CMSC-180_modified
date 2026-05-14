@@ -1,0 +1,4 @@
+master PC1_IP_HERE 5000
+slave PC2_IP_HERE 5001
+slave PC3_IP_HERE 5002
+slave PC4_IP_HERE 5003

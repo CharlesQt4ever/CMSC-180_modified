@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:10.0.9.19)",
+      "Bash(unzip -l \"C:/Users/nickd/Documents/CMSC 180_modified/CMSC 180Final.zip\")",
+      "Read(//c/Users/nickd/Documents/**)",
+      "Bash(mkdir -p \"C:/Users/nickd/Documents/CMSC 180_modified/RA4\")",
+      "Bash(cp lab04_v3.c input8.txt config_4pc.txt LAB04_PRESENTATION_GUIDE.md LAB04_ANSWERS_DRAFT.md LAB04_RUN_GUIDE.md LAB04_IMPLEMENTATION.md \"CMSC 180 Lab04 - 2025-2026-2.pdf\" \"C:/Users/nickd/Documents/CMSC 180_modified/RA4/\")",
+      "Bash(cp \"CMSC 180_modified2/CMSC 180_modified/CMSC 180/lab04_table1.csv\" \"CMSC 180_modified2/CMSC 180_modified/CMSC 180/lab04_table2.csv\" \"C:/Users/nickd/Documents/CMSC 180_modified/RA4/\")",
+      "Bash(awk '{print $5, $NF}')",
+      "Bash(sort -k2)",
+      "Bash(gcc --version)"
+    ]
+  }
+}

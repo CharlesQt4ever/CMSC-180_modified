@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm *)",
+      "Bash(bash -n table3.sh)",
+      "Bash(bash -n lab01_baseline.sh)",
+      "Bash(bash -n compute_table3.sh)",
+      "Bash(grep -E '\"\\\\$n,\\\\$t,\\\\$run' table3.sh)",
+      "Bash(grep -E 'EXE \\\\$n.*CONFIG' table3.sh)"
+    ]
+  }
+}
